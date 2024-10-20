@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Aon-Reg';
+  src: url('../fonts/Regular.otf') format('opentype');
+  }
+
+@font-face {
+  font-family: 'Aon-Med';
+  src: url('../fonts/Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aon-Light';
+  src: url('../fonts/Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: url('../fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aon-Bold';
+  src: url('../fonts/Bold.otf') format('opentype');
+}
+
+
+
+
+:root {
+  --background: #ffffff;
+}
+
+.hero{
+
+  background-image: linear-gradient(151deg,#098cb889 9%,#fff0 61%),url('../assets/Perspective.png');
+  background-size: cover !important;
+  background-position: 0 0,61%;
+  background-clip: border-box;
+  
+
+}
+
+.light{
+    padding-bottom: 0px;
+    background: url('../assets/light.png') 125px 85px / 100% no-repeat rgb(8, 140, 186);
+    background-position: 125px 85px;
+}
+
+.phone2{
+  margin: auto;
+  
+}
+
+.ash{
+  background: url('../assets/waves.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white transparent;
+  padding-bottom: 0;
+  padding-top: 1em;
+}
+
+.wavy {
+  position: relative;
+  background: #212337 url('../assets/bg2.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.gridimage {
+  background-image:  url('../assets/cardsprwal.png') ;
+  background-size: cover;
+  background-position: center;
+}
+
+.gridimage2 {
+  background-image:  url('../assets/0100.jpg') ;
+  background-size: cover;
+  background-position: center;
+}
+
+.gridimagecenter {
+  background-image:  url('../assets/Onboarding1.png') ;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wavy2 {
+  position: relative;
+  background: #212337 url('../assets/bg3.png') no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+
+
+.hero2 {
+  position: relative;
+	background-image: linear-gradient(151deg,#3e1e10db 9%,#fff0 61%),url('../assets/Perspective.png');
+	background-position: 0 0,61%;
+	background-size: cover;
+}
+
+.imagehero {
+    z-index: 199;
+    pointer-events: auto;
+    object-fit: cover;
+    inset: auto 0% 0% auto;
+    max-width: none;
+    position: absolute;
+    inset: auto 0% 0% auto;
+  }
+
+  .grid-blue {
+    background-color: #f0f8e5;
+    background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+    border-radius: 20px;
+    border-color: #80abf1;
+    border-radius: 20px;
+  }
+
+  .purple-grid {
+    background-color: #efe4fb;
+    background-image: linear-gradient(145deg,#efe4fb 35%,#e5cfff 74%);
+    border-color: #e4cbff;
+  }
+
+  .greengrid1{
+    background: rgb(255,173,52);
+    background: linear-gradient(220deg, rgba(255,173,52,1) 20%, rgba(255,212,149,1) 80%);
+      border-radius: 20px;
+  }
+
+  .greengrid2 {
+   
+    background-color: #f0f8e5;
+    background-image: linear-gradient(140deg,#95d8ef 25%,#6bb2d7 92%);
+    border-radius: 20px;
+    height: 40em;
+    max-height: 40em;
+}
+
+  
+
+  .text-covert {
+   
+      letter-spacing: -1px;
+      font-size: 50px;
+      line-height: 1;
+  }
+
+  .text-convertsmall{
+
+
+      letter-spacing: -.15px;
+
+
+
+
+      font-size: 1.25em;
+      line-height: 1.
+  }
+
+  .text-convertsmall2{
+
+    letter-spacing: -.15px;
+  
+
+
+    font-size: 1.25em;
+
+}
+
+
+  .flextext{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 30px;
+
+  }
+
+  .headcard {
+    width: 600px;
+    line-height: 1;
+    margin-top: .5em;
+    margin-bottom: 0;
+    line-height: 3.7rem;
+    letter-spacing: -1px;
+    color: #1b1f28;
+    font-size: 3.6rem;
+  }
+
+  .illustration {
+    background-color: #f0f8e5;
+    background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+    border-radius: 20px;
+    height: 363px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .illustrationtwo {
+    background: rgb(255,173,52);
+    background: linear-gradient(220deg, rgba(255,173,52,1) 20%, rgba(255,212,149,1) 80%); 
+	height: 363px;
+  border-radius: 20px;
+	max-height: 363px;
+  position: relative;
+  overflow: hidden;
+}
+
+.illustrationthree {
+  background-color: #f0f8e5;
+  background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+  height: 363px;
+  border-radius: 20px;
+	max-height: 363px;
+  position: relative;
+  overflow: hidden;
+}
+
+.illustrationtwo1 {
+  background: rgb(255,173,52);
+  background: linear-gradient(220deg, rgba(255,173,52,1) 20%, rgba(255,212,149,1) 80%); 
+
+border-radius: 20px;
+
+position: relative;
+overflow: hidden;
+}
+
+.illustrationtwo2 {
+  background-color: #f0f8e5;
+  background-image: linear-gradient(45deg,#95d8ef 25%,#6bb1d7e2 92%);
+
+border-radius: 20px;
+
+position: relative;
+overflow: hidden;
+}
+
+.heading4 {
+	color: #ebecf0;
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1;
+}
+
+.storelink1 {
+  filter: contrast(106%);
+  background-size: contain;
+  background-image: url(https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/636fa145b73c8d4051614c62_googleplay.webp);
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+
+.storelink2 {
+  background-image: url(https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/636f9ece1d81f4a29652172d_appstore.webp);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 175px;
+  height: 50px;
+}
+
+.footerheading {
+  color: #f4f5f7;
+  -webkit-text-stroke-color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footertext {
+  color: #939aaa;
+  -webkit-text-stroke-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.footerbg{
+  background: rgb(7,9,14);
+  background: linear-gradient(60deg, rgba(7,9,14,1) 0%, rgba(31,33,37,1) 100%); 
+}
