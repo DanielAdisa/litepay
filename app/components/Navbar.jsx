@@ -28,7 +28,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex items-center pr-0 p-[2%] gap-x-6 ">
                         <p className="rounded-full font-grey-med hover:cursor-pointer">Log In</p>
-                        <p className=" font-grey-med pt-[10px] rounded-full bg-white/20 border-[2px] border-white/50 pb-[10px] pr-[25px] pl-[25px]">Get Started -- It's free</p>
+                        <p className=" font-grey-med pt-[10px] rounded-full bg-white/20 border-[2px] border-white/50 pb-[10px] pr-[25px] pl-[25px]">Get Started - It is free</p>
                       
                     </div>
                   
