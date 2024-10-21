@@ -11,7 +11,7 @@ const AfterGrid = () => {
     <section className="w-full mx-auto md:w-[1200px] mt-[50px] pb-[20px] h-fit md:max-w-[1200px]">
        <div className="flex-col w-full h-fit">
         <Link href={"/"}>
-            <div className="flex w-full pl-[71.8px] pt-[71.8px] pb-[67.5px] mb-0 grid-blue hover:scale-105 transition-all ease-in-out border-b-0 border-r-0 border-[1.2px] rounded-xl h-fit">
+            <div className="flex w-full pl-[71.8px] pt-[71.8px] pb-[67.5px] mb-0 grid-blue hover:shadow-md transition-shadow ease-in-out border-b-0 border-r-0 border-[1.2px] rounded-xl h-fit">
                 <div className=" w-[30%] font-grey-bold leading-[64px] text-[50px]">
                     <p className="text-[#1b1f28] text-covert">Fast, Safe, Social Payments</p>
                 </div>

@@ -6,6 +6,8 @@ import AfterGrid from "./components/AfterGrid";
 import Pays from "./components/Pays";
 import Started from "./components/Started";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
         <AfterGrid />
         <Pays />
         <Started />
+        <Testimonials />
         <Footer />
     </div>
   );
