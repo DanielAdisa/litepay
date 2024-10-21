@@ -3,10 +3,12 @@ import Image from "next/image"
 import image from "../assets/handedphone.png"
 
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
+import Link from "next/link";
 
 const Pays = () => {
   return (
     <section className="w-full mx-auto md:w-[1200px] mt-[50px] pb-[20px] h-fit md:max-w-[1200px]">
+      <Link href={"/"}>
        <div className="flex items-start justify-between w-full pl-[71.8px] pt-[71.8px] h-full greengrid2 hover:scale-105 transition-all ease-in-out overflow-clip">
             <div className="w-1/3">
                 {/* <img src={image} alt="" className=" w-fit h-[100%]" /> */}
@@ -16,9 +18,12 @@ const Pays = () => {
                 <p className="text-[19px] flex hover:text-[21px] transition-all ease-in-out font-grey-med text-white/90 items-center gap-3 text-start mt-[100px] w-[35%] leading-[26px]">Get Spot  <IoArrowForwardCircleOutline /> </p>
             </div>
             <div className="content-end w-2/3">
-                <Image src={image} alt="" className="" />
+            <div className="">
+                <Image src={image} alt="" className="md:blur-sm md:hover:blur-0" />
+            </div>
             </div>
        </div>
+       </Link>
     </section>
   )
 }

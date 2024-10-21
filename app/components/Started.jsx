@@ -14,7 +14,7 @@ const Started = () => {
         </div>
         <div className="flex w-full h-auto gap-[1.5em] ">
             <div className="flex-col w-1/3">
-                <div className="flex transition-all duration-100 ease-in-out delay-150 illustration pr-[1.5em]  -rotate-1 hover:rotate-0">
+                <div className="flex transition-all duration-100 ease-in-out delay-150 illustration h-[363px] pr-[1.5em] bg-gradient-to-b from-black from-20% to-blue-600 rounded-[20px]  -rotate-1 hover:rotate-0">
                 {/* <img src={image2} alt=" " className="self-end transition-all ease-in-out hover:scale-105 " /> */}
                 </div>
                 <div className="mt-[1em] illustrationtwo1 p-[1.5em] h-[132px] ">
