@@ -14,13 +14,18 @@ import { FaApple } from "react-icons/fa";
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Navbar = () => {
     const [fix , setfix] = useState(false)
 
+
     function setFixed() {
-        if (window.scrollY > screen.height) {
+
+            if (typeof window !== 'undefined') {
+                console.log('window.innerHeight', window.innerHeight);
+            }
+        if (window.scrollY > window.innerHeight) {
                     setfix(true)
                 } else {
                     setfix(false)
