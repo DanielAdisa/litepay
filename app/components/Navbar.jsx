@@ -1,4 +1,3 @@
-
 "use client";
 import bg from "../assets/bg.png"
 import phone from "../assets/Onboarding3.png"
@@ -17,21 +16,26 @@ import Link from "next/link"
 import { useEffect, useState } from "react"
 
 const Navbar = () => {
-    // const [fix , setfix] = useState(false)
+    const [header , setHeader] = useState(false);
+    const scrollHeader = () => {
+        if(window.scrollY >= 800){
+            setHeader(true);
+        }else{
+            setHeader(false);
+        }
+    }
+
+    useEffect(() =>{
+        window.addEventListener('scroll', scrollHeader);
+        return () => {
+            window.removeEventListener('scroll', scrollHeader);
+                    }
+    },[])
 
 
-    // function setFixed() {
-
-    //     if (window.scrollY > window.innerHeight) {
-    //                 setfix(true)
-    //             } else {
-    //                 setfix(false)
-    //             }
-    // }
-    // window.addEventListener("scroll", setFixed)
   return (
     <section className="w-full  mx-auto  font-grey-med  md:w-[1200px] md:max-w-[1200px] h-fit">
-        <nav  className="md:fixed h-fit z-50 text-white/80 pr-4 bg-black/60  rounded-b-[20px] mx-auto md:w-[1200px] md:fixed text-white/80 pr-4 bg-black/60 rounded-b-[20px] text-white h-fit z-50 mx-auto md:w-[1200px]">
+        <nav  className={header ? 'md:fixed h-fit z-50 text-white/80 pr-4 bg-black/60  rounded-b-[20px] mx-auto md:w-[1200px]' : 'md:fixed text-white/80 pr-4 bg-transparent rounded-b-[20px] text-white h-fit z-50 mx-auto md:w-[1200px]'}>
                 <div className="flex items-center justify-between mx-auto md:max-w-[1200px]">
                     <div className="flex items-center w-1/3 gap-6 ml-4">
                     <Link href={"/"}  className=" w-[40%]">
