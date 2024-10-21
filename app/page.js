@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -7,6 +8,7 @@ import Pays from "./components/Pays";
 import Started from "./components/Started";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+
 
 
 export default function Home() {
