@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section class=" hero hidden md:block h-screen blur-md md:blur-0">
+    <section class=" hero backdrop-blur-2xl h-screen ">
       
       
     <div className="w-full mx-auto tracking-tight text-white md:w-[1200px] h-screen md:max-w-[1200px]">
