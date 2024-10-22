@@ -26,6 +26,20 @@ const Footer = () => {
                         <Image src={phone} alt=""  className=" mx-auto transition-all ease-in-out hover:scale-105 rounded-[20px]"/>
                     </div>
                     <div className="flex w-2/3 gap-5 p-5 py-10 mx-auto h-fit">
+                        
+                        <div className="w-1/3 text-center text-white font-grey-reg ">
+                            <p className="mb-5 footerheading font-grey-bold">LitePay</p>
+                            <p className="mb-3 footertext font-grey-reg">Money Transfer</p>
+                            <p className="mb-3 footertext font-grey-reg">Pay Bills</p>
+                            <p className="mb-3 footertext font-grey-reg">Pay Tution</p>
+                        </div>
+                        
+                        <div className="w-1/3 text-center text-white font-grey-reg ">
+                            <p className="mb-5 footerheading font-grey-bold">Partner With LitePay</p>
+                            <p className="mb-3 footertext font-grey-reg">Register as a Busniess</p>
+                            <p className="mb-3 footertext font-grey-reg">Register as an Agent</p>
+                        </div>
+                        
                         <div className="w-1/3 text-center text-white font-grey-reg ">
                             <p className="mb-5 footerheading font-grey-bold">Contact Us</p>
                             <p className="mb-3 footertext font-grey-reg">litepay.com</p>
@@ -43,18 +57,6 @@ const Footer = () => {
                                 
                             </div>
                         </div>
-                        
-                        <div className="w-1/3 text-center text-white font-grey-reg ">
-                            <p className="mb-5 footerheading font-grey-bold">Products</p>
-                            <p className="mb-3 footertext font-grey-reg">Money Transfer</p>
-                            <p className="mb-3 footertext font-grey-reg">Agents</p>
-                        </div>
-                        
-                        <div className="w-1/3 text-center text-white font-grey-reg ">
-                            <p className="mb-5 footerheading font-grey-bold">Company</p>
-                            <p className="mb-3 footertext font-grey-reg">litepay.com</p>
-                        </div>
-                        
 
                     </div>
                 </div>
@@ -64,3 +66,5 @@ const Footer = () => {
   )
 }
 export default Footer
+
+// company{about careers terms and conditions } 

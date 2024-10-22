@@ -13,7 +13,8 @@ const GridSection = () => {
         <div className=" flex w-full justify-center md:w-[80%] content-center  mb-0 md:justify-between md:items-center  ">
             <Image src={card1} alt="" className=" md:w-[10%] md:p-0 p-5"/>
             <div className="border-[5px] border-black/60 md:block hidden "/>
-            <Image src={cnn} alt="" className="md:w-[10%] md:p-0 p-5"/>
+            <Image src={cnn} alt="" className="md:w-[10%] w-[20%] md:p-0 p-5"/>
+            <Image src={cnn} alt="" className="md:w-[10%] md:hidden w-[20%] md:p-0 p-5"/>
             <div className="border-[5px] border-black/60 md:block hidden"/>
             <Image src={bloom} alt="" className="md:w-[10%] md:p-0 p-5"/>
         </div>

@@ -14,7 +14,7 @@ const Hero = () => {
            <p className=" font-grey-bold tracking-tight md:-mt-0 pt-[30%] w- md:pt-0 leading-none text-[2.6rem] md:text-[4.6rem]">Send & Receive Money D Eazzy Way</p>
           </div>
           <div className="md:w-[90%] w-full md:mt-[12%] text-center md:text-start  md:h-fit col-span-1 md:row-start-2 ">
-            <p className="leading track md:text-[1.1rem] md:-mt-0 -mt-[5%] tracking-normal font-grey-reg">Free foreign accounts for remote workers, freelancers, creators, and digital nomads in Ghana. Get paid from anywhere, and withdraw in Ghanaian Cedis (GHS) or USDC instantly.</p>
+            <p className="md:leading-[28px] text-[1rem]  leading-[24px] track md:text-[1.1rem] md:-mt-0 -mt-[5%] tracking-normal font-grey-reg">Free foreign accounts for remote workers, freelancers, creators, and digital nomads in Ghana. Get paid from anywhere, and withdraw in Ghanaian Cedis (GHS) or USDC instantly.</p>
           </div>
           <div className="md:w-[30%] mx-auto md:mx-0 w-2/3 col-span-1 row-start-3 ">
             <Link href={"/"}>
