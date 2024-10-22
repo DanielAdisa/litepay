@@ -6,16 +6,16 @@ import Image from "next/image"
 const GridSection = () => {
   return (
     <div className="w-full mx-auto md:w-[1200px] pb-0 h-[10vh] md:max-w-[1200px]">
-    <div className="flex w-full h-[10vh] justify-evenly items-center">
-        <div className=" w-[20%]">
-            <p className="tracking-[0.25em] text-[0.875rem] text-[#8592ad] text-start font-grey-reg">AS SEEN ON</p>
+    <div className="md:flex w-full h-[10vh] md:justify-evenly md:items-center">
+        <div className=" md:w-[20%]">
+            <p className="tracking-[0.25em] text-[0.875rem] text-[#8592ad] text-center md:p-0 p-[5%] md:text-start font-grey-lit">AS SEEN ON</p>
         </div>
-        <div className=" w-[80%] mb-0 justify-between items-center flex">
-            <Image src={card1} alt="" className="w-[10%]"/>
-            <div className="border-[5px] border-black/60 "/>
-            <Image src={cnn} alt="" className="w-[10%]"/>
-            <div className="border-[5px] border-black/60 "/>
-            <Image src={bloom} alt="" className="w-[10%]"/>
+        <div className=" flex w-full justify-center md:w-[80%] content-center  mb-0 md:justify-between md:items-center  ">
+            <Image src={card1} alt="" className=" md:w-[10%] md:p-0 p-5"/>
+            <div className="border-[5px] border-black/60 md:block hidden "/>
+            <Image src={cnn} alt="" className="md:w-[10%] md:p-0 p-5"/>
+            <div className="border-[5px] border-black/60 md:block hidden"/>
+            <Image src={bloom} alt="" className="md:w-[10%] md:p-0 p-5"/>
         </div>
         
     </div>
