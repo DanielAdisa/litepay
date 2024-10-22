@@ -218,6 +218,12 @@
     letter-spacing: -1px;
     color: #1b1f28;
     font-size: 3.6rem;
+
+     @media (max-width: 600px) {
+      width: fit-content;
+        font-size: 32px;
+        line-height: 1;
+      }
   }
 
   .illustration {

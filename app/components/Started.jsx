@@ -7,14 +7,14 @@ import Image from "next/image"
 
 const Started = () => {
   return (
-    <section className="w-full mx-auto md:w-[1200px] mt-[50px] pb-[20px]  h-fit md:max-w-[1200px]">
-        <div className="flex items-center justify-between w-full p-4">
-            <Image src={image} alt=" " className="self-start w-1/5 transition-all ease-in -rotate-6 hover:rotate-6" />
-            <p className="self-start text-right headcard font-grey-bold ">Get started on LitePay in three steps</p>
+    <section className="w-full mx-auto md:w-[1200px] mt-[50px] pb-[20px] md:p-0 p-4  h-fit md:max-w-[1200px]">
+        <div className="w-full p-4 md:justify-between md:items-center md:flex">
+            <Image src={image} alt=" " className="self-start hidden md:block w-[50%] transition-all ease-in md:w-1/5 -rotate-6 hover:rotate-6" />
+            <p className="text-left md:self-start md:text-right headcard font-grey-bold ">Get started on LitePay in three steps</p>
         </div>
-        <div className="flex w-full h-auto gap-[1.5em] ">
-            <div className="flex-col w-1/3">
-                <div className="flex transition-all duration-100 ease-in-out delay-150 illustration h-[363px] pr-[1.5em] bg-gradient-to-b from-black from-20% to-blue-600 rounded-[20px]  -rotate-1 hover:rotate-0">
+        <div className="md:flex w-full h-auto md:space-y-0 space-y-[1em] gap-[1.5em] ">
+            <div className="md:w-1/3 md:flex-col">
+                <div className="md:flex transition-all duration-100 ease-in-out delay-150 illustration h-[363px] pr-[1.5em] bg-gradient-to-b from-black from-20% to-blue-600 rounded-[20px]  md:-rotate-1 hover:rotate-0">
                 {/* <img src={image2} alt=" " className="self-end transition-all ease-in-out hover:scale-105 " /> */}
                 </div>
                 <div className="mt-[1em] illustrationtwo1 p-[1.5em] h-[132px] ">
@@ -23,9 +23,9 @@ const Started = () => {
                 </div>
             </div>
 
-            <div className="flex-col w-1/3">
-                <div className="flex transition-all duration-100 ease-in-out delay-150 p-[1.5em] pb-0 illustrationtwo rotate-1 hover:rotate-0">
-                <Image src={image3} alt=" " className="self-end transition-all ease-in-out hover:scale-105" />
+            <div className="w-full md:w-1/3 md:flex-col">
+                <div className="md:flex flex items-end transition-all duration-100 ease-in-out delay-150 md:p-[0.3em] md:pb-0 illustrationtwo md:rotate-1 hover:rotate-0">
+                <Image src={image3} alt=" " className="transition-all ease-in-out md:w-[90%] md:h-fit w-[90%] h-[80%]  mx-auto hover:scale-105" />
                 </div>
                 <div className="mt-[1em] illustrationtwo2 p-[1.5em] h-[132px] ">
                     <p className=" font-grey-bold text-center text-[#1b1f28] text-[24px]">Complete your KYC</p>
@@ -33,9 +33,9 @@ const Started = () => {
                 </div>
             </div>
 
-            <div className="flex-col w-1/3">
-                <div className="flex transition-all duration-100 ease-in-out delay-150 p-[1.5em] pb-0 illustrationthree -rotate-1 hover:rotate-0">
-                <Image src={image4} alt=" " className="self-end transition-all ease-in-out hover:scale-105 " />
+            <div className="md:w-1/3 md:flex-col">
+                <div className="md:flex flex items-end transition-all duration-100 ease-in-out delay-150 md:p-[0.3em] md:pb-0 illustrationthree md:-rotate-1 hover:rotate-0">
+                <Image src={image4} alt=" " className="transition-all ease-in-out md:w-[90%] md:h-fit w-[90%] h-[80%]  mx-auto hover:scale-105" />
                 </div>
                 <div className="mt-[1em] illustrationtwo1 p-[1.5em] h-[132px] ">
                     <p className=" font-grey-bold text-center text-[#1b1f28] text-[24px]">Talk to an agent</p>

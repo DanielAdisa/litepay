@@ -12,7 +12,7 @@ const AfterGrid = () => {
        <div className="flex-col w-full h-fit">
         <Link href={"/"}>
             <div className="md:flex w-full pl-[34px] pt-[34px] pb-[67.5px] md:pl-[71.8px] md:pt-[71.8px] md:pb-[67.5px] mb-0 grid-blue hover:shadow-md transition-shadow ease-in-out border-b-0 border-r-0 border-[1.2px] rounded-xl md:h-fit">
-                <div className=" md:w-[30%] w-[70%] font-grey-bold leading-[64px] text-[50px]">
+                <div className=" md:w-[30%] w-full font-grey-bold leading-[64px] text-[50px]">
                     <p className="text-[#1b1f28] text-covert">Fast, Safe, Social Payments</p>
                 </div>
                 <div className=" md:w-[45%] md:flex-col h-full mt-[18px] md:mt-0 content-end mb-0 ">
