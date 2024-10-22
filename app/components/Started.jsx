@@ -25,7 +25,7 @@ const Started = () => {
 
             <div className="w-full md:w-1/3 md:flex-col">
                 <div className="md:flex flex items-end transition-all duration-100 ease-in-out delay-150 md:p-[0.3em] md:pb-0 illustrationtwo md:rotate-1 hover:rotate-0">
-                <Image src={image3} alt=" " className="transition-all ease-in-out md:w-[90%] md:h-fit w-[90%] h-[80%]  mx-auto hover:scale-105" />
+                <Image src={image3} alt=" " className="transition-all ease-in-out md:w-[90%] md:h-fit w-fit p-4 pb-0 md:p-0 h-[80%]  mx-auto hover:scale-105" />
                 </div>
                 <div className="mt-[1em] illustrationtwo2 p-[1.5em] h-[132px] ">
                     <p className=" font-grey-bold text-center text-[#1b1f28] text-[24px]">Complete your KYC</p>
@@ -35,7 +35,7 @@ const Started = () => {
 
             <div className="md:w-1/3 md:flex-col">
                 <div className="md:flex flex items-end transition-all duration-100 ease-in-out delay-150 md:p-[0.3em] md:pb-0 illustrationthree md:-rotate-1 hover:rotate-0">
-                <Image src={image4} alt=" " className="transition-all ease-in-out md:w-[90%] md:h-fit w-[90%] h-[80%]  mx-auto hover:scale-105" />
+                <Image src={image4} alt=" " className="transition-all ease-in-out md:w-[90%] md:h-fit w-fit p-4 pb-0 md:p-0 h-[80%]  mx-auto hover:scale-105" />
                 </div>
                 <div className="mt-[1em] illustrationtwo1 p-[1.5em] h-[132px] ">
                     <p className=" font-grey-bold text-center text-[#1b1f28] text-[24px]">Talk to an agent</p>
