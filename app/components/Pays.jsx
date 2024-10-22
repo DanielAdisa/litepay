@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const Pays = () => {
   return (
-    <section className="w-full mx-auto md:w-[1200px] mt-[50px] p-4 md:p-0 pb-[20px] h-fit md:max-w-[1200px]">
+    <section className="w-full mx-auto md:w-[1200px] mt-[50px] p-4 md:p-0 pb-[20px] h-full md:max-w-[1200px]">
       <Link href={"/"}>
-       <div className="md:flex items-start justify-between w-full md:pl-[71.8px] md:pt-[71.8px] p-[34px] pb-0 pr-0 h-full greengrid2 hover:scale-105 transition-all ease-in-out overflow-clip">
+       <div className="md:flex items-start justify-between w-full md:pl-[71.8px] md:pt-[71.8px] p-[34px] pb-0 pr-1 h-full greengrid2 hover:scale-105 transition-all ease-in-out overflow-clip">
             <div className="w-full md:w-1/3">
                 {/* <img src={image} alt="" className=" w-fit h-[100%]" /> */}
                 <p className="md:text-[1em] text-[10px] uppercase font-grey-med tracking-[2px] text-black/90">PAYMENTS - PAY BILL</p>
