@@ -20,7 +20,7 @@ export default function Home() {
         <AfterGrid />
         <Pays />
         <Started />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Footer />
     </div>
   );

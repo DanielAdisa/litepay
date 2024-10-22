@@ -280,14 +280,23 @@ overflow: hidden;
 	text-align: center;
 	font-size: 3.5em;
 	line-height: 1;
+
+   @media (max-width: 600px) {
+      width: 100%;
+        font-size: 42px;
+        line-height: 1;
+      }
 }
 
 .storelink1 {
-  filter: contrast(106%);
-  background-size: contain;
   background-image: url(https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/636fa145b73c8d4051614c62_googleplay.webp);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 1px solid #333;
   border-radius: 10px;
+  width: 175px;
+  height: 50px;
 }
 
 .storelink2 {
