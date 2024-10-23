@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="w-full mx-auto md:p-[71.8px] mt-[50px] h-fit footerbg  rounded-t-[1.5em]">
+    <section className="w-full mx-auto md:p-[71.8px] mt-[50px] h-fit footerbg p-4 pt-0  rounded-t-[1.5em]">
         <div className="mx-auto md:w-[1200px] h-fit max-h-fit md:max-w-[1200px]">
             <div className="content-center w-full h-full md:flex-col">
                 <p className="text-center font-grey-bold heading4 w-[500px] mt-[80px] md:mt-0 mx-auto ">Get digital banking at your fingertips</p>
@@ -40,17 +40,17 @@ const Footer = () => {
                             <p className="mb-3 footertext font-grey-reg">Register as an Agent</p>
                         </div>
                         
-                        <div className="space-y-5 text-center text-white md:w-1/3 font-grey-reg ">
+                        <div className="w-full space-y-5 text-center text-white md:w-1/3 font-grey-reg ">
                             <p className="mb-5 footerheading font-grey-bold">Contact Us</p>
                             <p className="mb-3 footertext font-grey-reg">litepay.com</p>
-                            <div className="md:items-center md:justify-center mx-auto w-[10%] hidden md:gap-2 md:w-full md:flex">
-                            <Link href={"/"} className=" md:w-[10%] hover:scale-125 transition-all ease-in-out">
+                            <div className="flex items-center justify-center w-2/3 gap-10 mx-auto md:gap-2 md:w-full">
+                            <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
                                 <Image src={twitter} alt=""  />
                             </Link>
-                            <Link href={"/"} className=" md:w-[10%] hover:scale-125 transition-all ease-in-out">
+                            <Link href={"/"} className=" md:w-[10%] w-[15%]  hover:scale-125 transition-all ease-in-out">
                                 <Image src={instagram} alt=""  />
                             </Link>
-                            <Link href={"/"} className=" md:w-[10%] hover:scale-125 transition-all ease-in-out">
+                            <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
                                 <Image src={linkedin} alt=""  />
                             </Link>
                                 
