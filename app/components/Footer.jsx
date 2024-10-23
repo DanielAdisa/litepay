@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="w-full mx-auto md:p-[71.8px] mt-[50px] md:h-fit h-screen footerbg p-4 pt-0  rounded-t-[1.5em]">
+    <section className="w-full mx-auto md:p-[71.8px] mt-[50px] md:h-fit h-screen footerbg p-4 pt-0  md:rounded-t-[1.5em]">
         <div className="mx-auto md:w-[1200px] h-fit max-h-fit md:max-w-[1200px]">
             <div className="content-center w-full h-full md:flex-col">
                 <p className="text-center font-grey-bold heading4 w-[500px] mt-[100px] md:mt-0 mx-auto ">Get digital banking at your fingertips</p>
