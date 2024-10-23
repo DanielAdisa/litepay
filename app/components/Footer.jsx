@@ -11,10 +11,10 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className="w-full mx-auto md:p-[71.8px] mt-[50px] h-fit footerbg p-4 pt-0  rounded-t-[1.5em]">
+    <section className="w-full mx-auto md:p-[71.8px] mt-[50px] md:h-fit h-screen footerbg p-4 pt-0  rounded-t-[1.5em]">
         <div className="mx-auto md:w-[1200px] h-fit max-h-fit md:max-w-[1200px]">
             <div className="content-center w-full h-full md:flex-col">
-                <p className="text-center font-grey-bold heading4 w-[500px] mt-[80px] md:mt-0 mx-auto ">Get digital banking at your fingertips</p>
+                <p className="text-center font-grey-bold heading4 w-[500px] mt-[100px] md:mt-0 mx-auto ">Get digital banking at your fingertips</p>
                 <div className="grid md:grid-cols-2 grid-cols-1 md:grid-rows-1 grid-rows-2  mx-auto mt-[40px] mb-0 md:mb-[1em] gap-[10px] md:h-[50px] w-[350px]">
                     <Link href={"/"} className="col-span-1 p-4 mx-auto storelink1 "/>
                     <Link href={"/"} className="col-span-1 p-4 mx-auto storelink2 "/>
@@ -43,15 +43,18 @@ const Footer = () => {
                         <div className="w-full space-y-5 text-center text-white md:w-1/3 font-grey-reg ">
                             <p className="mb-5 footerheading font-grey-bold">Contact Us</p>
                             <p className="mb-3 footertext font-grey-reg">litepay.com</p>
-                            <div className="flex items-center justify-center w-2/3 gap-10 mx-auto md:gap-2 md:w-full">
+                            <div className="flex items-center justify-center w-2/3 gap-5 mx-auto md:gap-2 md:w-full">
                             <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
-                                <Image src={twitter} alt=""  />
+                                <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">T</div>
+                                <Image src={twitter} alt=""  className="hidden rounded-full md:rounded-none md:block"/>
                             </Link>
-                            <Link href={"/"} className=" md:w-[10%] w-[15%]  hover:scale-125 transition-all ease-in-out">
-                                <Image src={instagram} alt=""  />
+                            <Link href={"/"} className=" md:w-[10%] w-[15%]  hover:scale-125 transition-all  ease-in-out">
+                                <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">I</div>
+                                <Image src={instagram} alt="" className="hidden rounded-full md:rounded-none md:block"  />
                             </Link>
                             <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
-                                <Image src={linkedin} alt=""  />
+                                <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">L</div>
+                                <Image src={linkedin} alt="" className="hidden rounded-full md:rounded-none md:block"  />
                             </Link>
                                 
                                 
