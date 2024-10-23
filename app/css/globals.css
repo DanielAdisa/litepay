@@ -45,8 +45,17 @@
     background-image: linear-gradient(151deg,#098cb889 9%,#fff0 61%),url('../assets/bg4.png');
     background-size: cover !important;
     background-clip: border-box;
+
+    @media (max-width: 400px) {
+      background-image: linear-gradient(151deg,#098cb889 9%,#fff0 61%),url('../assets/bg.png');
+      background-size: cover !important;
+      background-clip: border-box;
+    
+    }
   
   }
+
+ 
 
     
  
