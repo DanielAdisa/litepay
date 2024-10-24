@@ -27,7 +27,7 @@ module.exports = {
       },
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
-        "loop-scroll1": "loop-scroll1 50s linear infinite",
+        "loop-scroll1": "loop-scroll1 65s linear infinite",
       },
       keyframes: {
         "loop-scroll": {
@@ -35,7 +35,7 @@ module.exports = {
           to: { transform: "translateX(-100%)"},
         },
         "loop-scroll1": {
-          from: { transform: "translateX(0)"},
+          from: { transform: "translateX(1920)"},
           to: { transform: "translateX(-100%)"},
         },
       },
