@@ -28,6 +28,7 @@ module.exports = {
       animation: {
         "loop-scroll": "loop-scroll 50s linear infinite",
         "loop-scroll1": "loop-scroll1 75s linear infinite",
+        // "stop-scroll": "stop-scroll 50s linear infinite",
       },
       keyframes: {
         "loop-scroll": {
@@ -38,6 +39,10 @@ module.exports = {
           from: { transform: "translateX(1920)"},
           to: { transform: "translateX(-100%)"},
         },
+        // "stop-scroll": {
+        //   from: { transform: "translateX(0)"},
+        //   to: { transform: "translateX()"},
+        // },
       },
       
     },

@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div className="mx-auto md:mt-[50px] md:mb-[50px]  md:pl-11 md:pr-11 md:mx-auto">
     <div className="flex gap-6">
-    <div className="flex gap-6 animate-loop-scroll ">
+    <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px] md:h-[10em] p-[10px] md:p-[20px] w-[270px] greengrid1 border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -21,7 +21,7 @@ const Testimonials = () => {
        </div>
         ))}
     </div>
-    <div className="flex gap-6 animate-loop-scroll ">
+    <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px] md:h-[10em] p-[10px] md:p-[20px] w-[270px] greengrid1 border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -39,7 +39,7 @@ const Testimonials = () => {
     </div>
     </div>
     <div className="flex relative gap-6 mt-[20px]">
-    <div className="relative flex gap-6 animate-loop-scroll right-60 hover">
+    <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px]   md:h-[10em] p-[10px] md:p-[20px] w-[270px] grid-blue border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -55,7 +55,7 @@ const Testimonials = () => {
        </div>
         ))}
     </div>
-    <div className="relative flex gap-6 animate-loop-scroll right-60 hover ">
+    <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px]  md:h-[10em] p-[10px] md:p-[20px] w-[270px] grid-blue border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -71,7 +71,7 @@ const Testimonials = () => {
        </div>
         ))}
     </div>
-    <div className="relative flex gap-6 animate-loop-scroll right-60 hover ">
+    <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px]  md:h-[10em] p-[10px] md:p-[20px] w-[270px] grid-blue border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -89,7 +89,7 @@ const Testimonials = () => {
     </div>
     </div>
     <div className="flex gap-6 mt-[20px]">
-    <div className="flex gap-6 animate-loop-scroll ">
+    <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px] md:h-[10em] p-[10px] md:p-[20px] w-[270px] greengrid1 border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -105,7 +105,7 @@ const Testimonials = () => {
        </div>
         ))}
     </div>
-    <div className="flex gap-6 animate-loop-scroll ">
+    <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px] md:h-[10em] p-[10px] md:p-[20px] w-[270px] greengrid1 border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -123,7 +123,7 @@ const Testimonials = () => {
     </div>
     </div>
     <div className="flex relative gap-6 mt-[20px]">
-    <div className="relative flex gap-6 animate-loop-scroll right-60 hover">
+    <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px]   md:h-[10em] p-[10px] md:p-[20px] w-[270px] grid-blue border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -139,7 +139,7 @@ const Testimonials = () => {
        </div>
         ))}
     </div>
-    <div className="relative flex gap-6 animate-loop-scroll right-60 hover ">
+    <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px]  md:h-[10em] p-[10px] md:p-[20px] w-[270px] grid-blue border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
@@ -155,7 +155,7 @@ const Testimonials = () => {
        </div>
         ))}
     </div>
-    <div className="relative flex gap-6 animate-loop-scroll right-60 hover ">
+    <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
            <div key={index} className="h-fit md:w-[428px]  md:h-[10em] p-[10px] md:p-[20px] w-[270px] grid-blue border-[1px] flex flex-col rounded-2xl">
            <div className="flex flex-row items-center w-full gap-3 mb-4">
