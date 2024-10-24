@@ -16,11 +16,11 @@ export default function Home() {
     <div className="overflow-hidden">
         <Navbar />
         <Hero />
-        <GridSection />
+        {/* <GridSection /> */}
         <AfterGrid />
         <Pays />
+        <Testimonials />
         <Started />
-        {/* <Testimonials /> */}
         <Footer />
     </div>
   );

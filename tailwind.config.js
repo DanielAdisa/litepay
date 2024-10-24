@@ -26,16 +26,20 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       animation: {
-        scroll:
-          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        "loop-scroll": "loop-scroll 50s linear infinite",
+        "loop-scroll1": "loop-scroll1 50s linear infinite",
       },
       keyframes: {
-        scroll: {
-          to: {
-            transform: "translate(calc(-50% - 0.5rem))",
-          },
+        "loop-scroll": {
+          from: { transform: "translateX(0)"},
+          to: { transform: "translateX(-100%)"},
+        },
+        "loop-scroll1": {
+          from: { transform: "translateX(0)"},
+          to: { transform: "translateX(-100%)"},
         },
       },
+      
     },
   },
   plugins: [addVariablesForColors],
