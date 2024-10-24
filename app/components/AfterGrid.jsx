@@ -5,6 +5,11 @@ import { AiOutlineSafetyCertificate } from "react-icons/ai";
 import { IoArrowForwardCircleOutline } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
+import { PiNumberCircleOneDuotone } from "react-icons/pi";
+import { PiNumberCircleTwoDuotone } from "react-icons/pi";
+import { PiNumberCircleThreeDuotone } from "react-icons/pi";
+import { PiNumberCircleFourDuotone } from "react-icons/pi";
+PiNumberCircleFourDuotone 
 
 const AfterGrid = () => {
   return (
@@ -26,28 +31,28 @@ const AfterGrid = () => {
             </div>
             <div className="md:flex w-full text-[#363f52] greengrid1 rounded-xl space-y-5 md:space-y-0 mt-[50px] md:space-x-[20px] md:pl-[71.8px] p-9 pr-0.5 md:pt-[71.8px] md:pb-[67.5px]  ">
                 <div className="md:flex-col items-center md:items-start  gap-x-8 md:gap-x-0 flex md:w-[25%] md:space-y-[10px]">
-                    <MdPaid className="md:h-[50px] md:text-9xl text-[100px] text-[#1b1f28] md:w-[50px] "/>
+                    <PiNumberCircleOneDuotone className="md:h-[50px] md:text-9xl text-[100px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
                     <p className="text-[35px] content-start font-grey-med text-[#1b1f28] flextext">Get Paid</p>
                     <p className="text-[1rem] w-[85%] content-end font-grey-reg text-convertsmall2 text-[#1b1f28] ">Instant, free payments so you get your money fast.</p>
                     </div>
                 </div>
                 <div className="md:flex-col flex  items-center md:items-start  gap-x-8 md:gap-x-0 md:w-[25%] md:space-y-[10px]">
-                    <FaShoppingCart className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
+                    <PiNumberCircleTwoDuotone className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
                     <p className="md:text-[1.5rem] content-start font-grey-med text-[#1b1f28] flextext">Spend Together</p>
                     <p className="text-[1rem] w-[85%] font-grey-reg text-convertsmall2 text-[#1b1f28] ">Save for shared expenses with free group accounts.</p>
                     </div>
                 </div>
                 <div className="md:flex-col items-center md:items-start  gap-x-8 md:gap-x-0 flex md:w-[25%] md:space-y-[10px]">
-                    <GiWallet className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
+                    <PiNumberCircleThreeDuotone  className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
                     <p className="md:text-[1.5rem] font-grey-med text-[#1b1f28] flextext">Skip the Fees</p>
                     <p className="text-[1rem] w-[85%] font-grey-reg text-convertsmall2 text-[#1b1f28] ">No monthly account or card transaction fees.</p>
                     </div>
                 </div>
                 <div className="md:flex-col items-center md:items-start  gap-x-8 md:gap-x-0 flex md:w-[25%] md:space-y-[10px]">
-                    <AiOutlineSafetyCertificate className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
+                    <PiNumberCircleFourDuotone className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
                     <p className="md:text-[1.5rem] font-grey-med text-[#1b1f28] flextext">Instant Rewards</p>
                     <p className="text-[1rem] w-[85%] font-grey-reg text-convertsmall2 text-[#1b1f28] ">Stay connected with Airtime Rewards on every purchase.</p>

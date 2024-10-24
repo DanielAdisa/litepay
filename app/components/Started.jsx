@@ -10,7 +10,7 @@ const Started = () => {
     <section className="w-full mx-auto md:w-[1200px] mt-[50px] pb-[20px] md:p-0 p-4  h-fit md:max-w-[1200px]">
         <div className="w-full p-4 md:justify-between md:items-center md:flex">
             <Image src={image} alt=" " className="self-start hidden md:block w-[50%] transition-all ease-in md:w-1/5 -rotate-6 hover:rotate-6" />
-            <p className="text-left md:self-start md:text-right headcard font-grey-bold ">Get started on LitePay in three steps</p>
+            <p className="text-left md:self-start md:text-right headcard font-grey-bold ">Get started on LitePay in three Eazzy steps</p>
         </div>
         <div className="md:flex w-full h-auto md:space-y-0 space-y-[1em] gap-[1.5em] ">
             <div className="md:w-1/3 md:flex-col">
