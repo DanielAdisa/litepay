@@ -1,4 +1,5 @@
-import phone from "../assets/phonewave.png"
+import phone from "../assets/left-mobile.png"
+import phone2 from "../assets/right-mobile.png"
 import twitter from "../assets/twitter.png"
 import instagram from "../assets/instagram.png"
 import linkedin from "../assets/linkedin.png"
@@ -22,8 +23,9 @@ const Footer = () => {
             </div>
             <div className="md:mt-[1em]  overflow-hidden ">
                 <div className="md:flex-col w-full mx-auto  items-center justify-center  gap-10 mt-[2em]">
-                    <div className="md:w-1/3 md:block hidden h-fit mx-auto -rotate-1 hover:rotate-0 wavy2 transition-all duration-100 ease-in-out delay-150 rounded-[20px] overflow-hidden">
-                        <Image src={phone} alt=""  className=" mx-auto transition-all ease-in-out hover:scale-105 rounded-[20px]"/>
+                    <div className="md:w-2/3 items-center md:relative justify-center  md:flex hidden h-fit mx-auto  transition-all duration-100 ease-in-out delay-150 rounded-[20px] overflow-hidden">
+                        <Image src={phone} alt=""  className="mx-auto relative left-[240px] transition-all w-[35%] ease-in-out "/>
+                        <Image src={phone2} alt=""  className="mx-auto relative right-[170px] transition-all w-[35%] ease-in-out "/>
                     </div>
                     <div className="flex-row content-center gap-5 p-5 py-10 space-y-10 md:space-y-0 md:w-full md:flex h-fit">
                         
