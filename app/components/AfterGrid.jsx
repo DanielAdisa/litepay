@@ -21,10 +21,10 @@ const AfterGrid = () => {
                 </div>
             </div>
         </Link>
-            <div className="  pb-0 pl-0 p-0.5 rounded-[20px] mt-[20px]">
+            <div className="  pb-0 pl-0 p-0.5 rounded-[20px] mt-[50px]">
                <Image src={image} alt="" className="w-full object-cover bg-gradient-to-b from-transparent from-10% to-purple-950  rounded-[20px]" />
             </div>
-            <div className="md:flex w-full text-[#363f52] greengrid1 rounded-xl space-y-5 md:space-y-0 mt-[20px] md:space-x-[20px] md:pl-[71.8px] p-9 pr-0.5 md:pt-[71.8px] md:pb-[67.5px]  ">
+            <div className="md:flex w-full text-[#363f52] greengrid1 rounded-xl space-y-5 md:space-y-0 mt-[50px] md:space-x-[20px] md:pl-[71.8px] p-9 pr-0.5 md:pt-[71.8px] md:pb-[67.5px]  ">
                 <div className="md:flex-col items-center md:items-start  gap-x-8 md:gap-x-0 flex md:w-[25%] md:space-y-[10px]">
                     <MdPaid className="md:h-[50px] md:text-9xl text-[100px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
