@@ -45,7 +45,7 @@ const AfterGrid = () => {
                     </div>
                 </div>
                 <div className="md:flex-col items-center md:items-start  gap-x-8 md:gap-x-0 flex md:w-[25%] md:space-y-[10px]">
-                    <PiNumberCircleThreeDuotone  className="md:h-[50px] text-[100px] text-[#1b1f28] md:w-[50px] "/>
+                    <PiNumberCircleThreeDuotone  className="md:h-[50px] text-[90px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
                     <p className="md:text-[1.5rem] font-grey-med text-[#1b1f28] flextext">Skip the Fees</p>
                     <p className="text-[1rem] w-[85%] font-grey-reg text-convertsmall2 text-[#1b1f28] ">No monthly account or card transaction fees.</p>
