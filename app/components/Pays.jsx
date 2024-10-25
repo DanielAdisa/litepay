@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Pays = () => {
   return (
-    <section className="w-full mx-auto md:w-[1200px] mt-[50px] p-4 md:p-0 pb-[20px] h-full md:max-w-[1200px]">
+    <section className="w-full mx-auto md:w-[1200px] mt-[25px] md:mt-[50px] p-4 pt-0 md:p-0 pb-[0px] h-full md:max-w-[1200px]">
       <Link href={"/"}>
        <div className="md:flex items-start justify-between w-full md:pl-[71.8px] md:pt-[71.8px] p-[34px] pb-0 pr-1 h-full greengrid2 hover:shadow-md transition-all ease-in-out overflow-clip">
             <div className="w-full md:w-1/3">

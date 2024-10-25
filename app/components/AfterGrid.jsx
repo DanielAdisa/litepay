@@ -13,7 +13,7 @@ PiNumberCircleFourDuotone
 
 const AfterGrid = () => {
   return (
-    <section className="w-full mx-auto md:w-[1200px] mt-[50px] p-4 md:p-0 pb-[20px] h-fit md:max-w-[1200px]">
+    <section className="w-full mx-auto md:w-[1200px] md:mt-[50px] mt-[25px] p-4 md:p-0 pb-[0px] h-fit md:max-w-[1200px]">
        <div className="flex-col w-full h-fit">
         <Link href={"/"}>
             <div className="md:flex w-full pl-[34px] pt-[34px] pb-[67.5px] md:pl-[71.8px] md:pt-[71.8px] md:pb-[67.5px] mb-0 grid-blue hover:shadow-md transition-shadow ease-in-out border-b-0 border-r-0 border-[1.2px] rounded-xl md:h-fit">
@@ -26,10 +26,10 @@ const AfterGrid = () => {
                 </div>
             </div>
         </Link>
-            <div className="  pb-0 pl-0 p-0.5 rounded-[20px] mt-[50px]">
+            <div className="  pb-0 pl-0 p-0.5 rounded-[20px] mt-[25px] md:mt-[50px]">
                <Image src={image} alt="" className="w-full object-cover bg-gradient-to-b from-transparent from-10% to-purple-950  rounded-[20px]" />
             </div>
-            <div className="md:flex w-full text-[#363f52] greengrid1 rounded-xl space-y-5 md:space-y-0 mt-[50px] md:space-x-[20px] md:pl-[71.8px] p-9 pr-0.5 md:pt-[71.8px] md:pb-[67.5px]  ">
+            <div className="md:flex w-full text-[#363f52] greengrid1 rounded-xl space-y-5 md:space-y-0 mt-[25px] md:mt-[50px] md:space-x-[20px] md:pl-[71.8px] p-9 pr-0.5 md:pt-[71.8px] md:pb-[67.5px]  ">
                 <div className="md:flex-col items-center md:items-start  gap-x-8 md:gap-x-0 flex md:w-[25%] md:space-y-[10px]">
                     <PiNumberCircleOneDuotone className="md:h-[50px] md:text-9xl text-[100px] text-[#1b1f28] md:w-[50px] "/>
                     <div className="flex-col space-y-4 md:flex-none">
