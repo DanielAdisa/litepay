@@ -7,11 +7,11 @@ const Testimonials = () => {
     <div className="flex gap-6">
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px] md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3  w-full font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-5 mb-4 md:justfy-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
@@ -23,11 +23,11 @@ const Testimonials = () => {
     </div>
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px] md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 w-full font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-5 mb-4 md:justfy-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
@@ -41,11 +41,11 @@ const Testimonials = () => {
     <div className="flex relative gap-6 mt-[20px]">
     <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px]   md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px]   md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-3 5b-4 md:justif-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
@@ -57,11 +57,11 @@ const Testimonials = () => {
     </div>
     <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px]  md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px]  md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-35mb-4 md:justiy-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
@@ -73,11 +73,11 @@ const Testimonials = () => {
     </div>
     <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px]  md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px]  md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-35mb-4 md:justiy-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
@@ -91,11 +91,11 @@ const Testimonials = () => {
     <div className="flex gap-6 mt-[20px]">
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px] md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-5 mb-4 md:justfy-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
@@ -107,11 +107,11 @@ const Testimonials = () => {
     </div>
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-[10em] md:w-[428px] md:h-[360px] p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
-           <div className="flex flex-row items-center justify-center w-full gap-3 mb-4">
+           <div className="flex flex-row items-center w-full gap-5 mb-4 md:justfy-center">
            {t.image}
            <div className="flex flex-col text-[20px]">
                <h1 className="-mb-1 font-semibold ">{t.name}</h1>
