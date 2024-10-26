@@ -18,7 +18,7 @@ import { useEffect, useState } from "react"
 const Navbar = () => {
     const [header , setHeader] = useState(false);
     const scrollHeader = () => {
-        if(window.scrollY >= screen.height*0.8){
+        if(window.scrollY >= screen.height*0.5){
             setHeader(true);
         }else{
             setHeader(false);
