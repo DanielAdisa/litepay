@@ -9,6 +9,13 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdAttachEmail } from "react-icons/md";
 import Image from "next/image";
 import Link from "next/link";
+import { BiLogoFacebookCircle } from "react-icons/bi";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { BiLogoTiktok } from "react-icons/bi";
+
+
 
 const Footer = () => {
   return (
@@ -48,15 +55,29 @@ const Footer = () => {
                             <div className="flex items-center justify-center w-2/3 gap-5 mx-auto md:gap-2 md:w-full">
                             <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
                                 <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">T</div>
-                                <Image src={twitter} alt=""  className="hidden rounded-full md:rounded-none md:block"/>
+                                <BiLogoFacebookCircle className=" text-[25px]"/>
+                                {/* <Image src={twitter} alt=""  className="hidden rounded-full md:rounded-none md:block"/> */}
                             </Link>
                             <Link href={"/"} className=" md:w-[10%] w-[15%]  hover:scale-125 transition-all  ease-in-out">
                                 <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">I</div>
-                                <Image src={instagram} alt="" className="hidden rounded-full md:rounded-none md:block"  />
+                                <FaTwitter className=" text-[25px]" />
+{/* 
+                                <Image src={instagram} alt="" className="hidden rounded-full md:rounded-none md:block"  /> */}
                             </Link>
                             <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
                                 <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">L</div>
-                                <Image src={linkedin} alt="" className="hidden rounded-full md:rounded-none md:block"  />
+                                <FaLinkedin className=" text-[25px]" />
+                                {/* <Image src={linkedin} alt="" className="hidden rounded-full md:rounded-none md:block"  /> */}
+                            </Link>
+                            <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
+                                <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">L</div>
+                                <FaYoutube className=" text-[25px]" />
+                                {/* <Image src={linkedin} alt="" className="hidden rounded-full md:rounded-none md:block"  /> */}
+                            </Link>
+                            <Link href={"/"} className=" md:w-[10%] w-[15%] hover:scale-125 transition-all ease-in-out">
+                                <div className="p-1.5 rounded-full font-grey-bold bg-white/45 border-white/70 border-[2px] md:hidden">L</div>
+                                <BiLogoTiktok className=" text-[25px]" />
+                                {/* <Image src={linkedin} alt="" className="hidden rounded-full md:rounded-none md:block"  /> */}
                             </Link>
                                 
                                 
