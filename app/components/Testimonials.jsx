@@ -7,7 +7,7 @@ const Testimonials = () => {
     <div className="flex gap-6">
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3  w-full font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
@@ -23,7 +23,7 @@ const Testimonials = () => {
     </div>
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 w-full font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
@@ -41,7 +41,7 @@ const Testimonials = () => {
     <div className="flex relative gap-6 mt-[20px]">
     <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px]   md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px]   md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
@@ -57,7 +57,7 @@ const Testimonials = () => {
     </div>
     <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px]  md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px]  md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
@@ -73,7 +73,7 @@ const Testimonials = () => {
     </div>
     <div className="relative flex gap-6 animate-loop-scroll hover:animate-stop-scroll right-60 hover ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px]  md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px]  md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
@@ -91,7 +91,7 @@ const Testimonials = () => {
     <div className="flex gap-6 mt-[20px]">
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
@@ -107,7 +107,7 @@ const Testimonials = () => {
     </div>
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll ">
         {TESTIMONIALS.map((t, index) => (
-           <div key={index} className="h-fit md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
+           <div key={index} className="h-auto md:w-[428px] md:h-auto p-[10px] md:p-[40px] w-[400px] grid-blue2 bg-white/40 flex flex-col">
            <p className="mb-6 p-2 text-[24px] h-2/3 font-grey-reg leading-none tracking-wide text-left ">
                {t.testimonialz}
            </p>
