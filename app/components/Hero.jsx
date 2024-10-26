@@ -11,7 +11,7 @@ const Hero = () => {
      <div className="flex items-start w-full h-full md:items-center">
        <div className="grid md:-mt-0  gap-y-10 grid-cols-1 grid-rows-3 md:w-[610px] md:h-[510px]">
           <div className="col-span-1 row-start-1 text-center md:text-start md:w-full md:h-fit">
-           <p className=" font-grey-bold tracking-tight md:-mt-0 pt-[30%] w- md:pt-0 leading-none text-[2.6rem] md:text-[4.6rem]">Send & Receive Money D<br/> Eazzy Way</p>
+           <p className=" font-grey-bold tracking-tight md:-mt-0 pt-[30%] w- md:pt-0 leading-none text-[2.6rem] md:text-[4.6rem]">Send & Receive Money D<br className='hidden md:block'/> Eazzy Way</p>
           </div>
           <div className="md:w-[90%] w-full md:mt-[12%] text-center md:text-start  md:h-fit col-span-1 md:row-start-2 ">
             <p className="md:leading-[28px] text-[1rem]  leading-[24px] track md:text-[1.1rem] md:-mt-0 -mt-[5%] tracking-normal font-grey-reg">Free foreign accounts for remote workers, freelancers, creators, and digital nomads in Ghana. Get paid from anywhere, and withdraw in Ghanaian Cedis (GHS) or USDC instantly.</p>

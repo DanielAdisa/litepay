@@ -33,11 +33,11 @@ module.exports = {
       keyframes: {
         "loop-scroll": {
           from: { transform: "translateX(0)"},
-          to: { transform: "translateX(-100%)"},
+          to: { transform: "translateX(-35%)"},
         },
         "loop-scroll1": {
           from: { transform: "translateX(1920)"},
-          to: { transform: "translateX(-100%)"},
+          to: { transform: "translateX(-35%)"},
         },
         // "stop-scroll": {
         //   from: { transform: "translateX(0)"},

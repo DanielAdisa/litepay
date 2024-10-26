@@ -3,7 +3,7 @@ import { FaUserCircle } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <div className="mx-auto md:mt-[50px] md:mb-[50px] mt-[25px] mb-0  md:pl-11 md:pr-11 md:mx-auto">
+    <div className="mx-auto md:mt-[50px] md:mb-[50px] mt-[25px] mb-0 font-grey-reg md:pl-11 md:pr-11 md:mx-auto">
     <div className="flex gap-6">
     <div className="flex gap-6 animate-loop-scroll hover:animate-stop-scroll">
         {TESTIMONIALS.map((t, index) => (

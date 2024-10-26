@@ -315,8 +315,7 @@ overflow: hidden;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid #333;
-  border-radius: 10px;
+
   width: 175px;
   height: 50px;
 }
@@ -326,8 +325,6 @@ overflow: hidden;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid #333;
-  border-radius: 10px;
   width: 175px;
   height: 50px;
 }
