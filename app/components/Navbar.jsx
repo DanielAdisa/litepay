@@ -34,7 +34,7 @@ const Navbar = () => {
 
 
   return (
-    <section className="w-full mx-auto transition-transform ease-in-out font-grey-med md:w-full md:max-w-full h-fit">
+    <section className="w-full mx-auto transition-transform ease-in-out font-grey-med md:w-full scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#25D366]/80 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#25D366]/8  md:max-w-full h-fit">
         <nav  className={header ? 'fixed h-fit transition-all ease-in-out rounded-b-[20px]  z-50 text-white pr-4 backdrop-blur-2xl hidden md:block bg-black/70  mx-auto w-full' : 'fixed  backdrop-blur-3xl md:backdrop-blur-0 md:bg-transparent bg-black/25 text-white/80 md:pr-0 md:pl-0 md:pt-0  md:pb-0 pt-[2%] pb-[2%] pr-[2%] pl-[2%] text-white h-fit z-50 mx-auto w-full'}>
                 <div className="flex items-center justify-between mx-auto md:max-w-[1200px]">
                     <div className="flex items-center justify-center w-full gap-6 ml-4 md:justify-start md:w-1/3">

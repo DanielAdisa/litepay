@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section class=" hero backdrop-blur-2xl h-screen ">
+    <section class=" hero backdrop-blur-2xl h-screen scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#25D366]/8 ">
       
       
     <div className="w-full md:p-0 p-4 mx-auto tracking-tight text-white md:w-[1200px] h-screen md:max-w-[1200px]">

@@ -13,7 +13,7 @@ import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#25D366]/80">
         <Navbar />
         <Hero />
         {/* <GridSection /> */}
