@@ -122,7 +122,7 @@ const Testimonials = () => {
         ))}
     </div>
     </div>
-    <div className="md:mt-[50px] mt-[25px] ml-10 mr-10 border-b-2"/>    
+    <div className="md:mt-[50px] mt-[25px] hidden md:block ml-10 mr-10 border-b-2"/>    
 </div>
   )
 }
