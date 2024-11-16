@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa89911-94b8-4c1a-9a69-f95eae8aca4d" name="Changes" comment="ssdssd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="faa89911-94b8-4c1a-9a69-f95eae8aca4d" name="Changes" comment="ssdssd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1729994798387</updated>
       <workItem from="1729994799946" duration="745000" />
-      <workItem from="1730023645286" duration="1323000" />
+      <workItem from="1730023645286" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="ssdssd">
       <option name="closed" value="true" />

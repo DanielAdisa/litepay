@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import svg1 from '../assets/curve.svg';
 import Link from 'next/link';
+// import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
